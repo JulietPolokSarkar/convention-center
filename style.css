@@ -1,0 +1,191 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.btn-book{
+    background-color: #FFFFFF;
+    color: #3F87F5;
+    height: 44px;
+    width: 168px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.morebtn{
+    background-color: #3F87F5;
+    color: white;
+    height: 44px;
+    width: 168px;
+    padding: 5px 10px;
+    margin-left: 70%;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-book a{
+    text-decoration: none;
+}
+
+/* toast style */
+.toasty{
+    border-left: #3F87F5 solid 10px;
+    border-radius: 2px;
+}
+
+
+/* packages */
+.card {
+    border:none;
+    padding: 10px 20px;
+  }
+
+  .card-text{
+      color: #848199;
+  }
+
+  .card-text2{
+      color: white;
+  }
+
+  .list-group-items{
+      background-color: #3F87F5;
+      margin-left: 25px;
+      color: white;
+      list-style-type: none;
+  }
+
+  .card3{
+    padding: 10px 20px;
+    border-radius: 5px;
+    transform: scale(1.04, 1.04);
+    background-color: #3F87F5;
+    color: white;
+  }
+
+  .card::after {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .card:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    backface-visibility: hidden; 
+    will-change: transform;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+  }
+
+  .card:hover::after {
+    opacity: 1;
+  }
+
+  .card:hover .btn-outline-primary{
+    color:white;
+    background:#3F87F5;
+  }
+
+  /* feedback section */
+
+  .blue-bg{
+    background-color: #3f88f521;
+    border-radius: 10px;
+    height: 370px;
+}
+
+.blue-bg h3{
+    color: #3F87F5;
+}
+
+.inputform{
+    height: 100px;
+    border-radius: 10px;
+}
+
+  /* accordion style */
+  .accordion-text{
+      color: #7E848C;
+  }
+
+  .price-value{
+    width: 60px;
+    height: 25px;
+    line-height: 20px;
+    border-radius: 20%;
+    background: red;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: 20px;
+}
+
+/* footer style */
+
+footer{
+    color: white;
+    background-color: black;
+    height:150px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
+footer h4{
+    margin-left: 60%;
+}
+footer a img{
+    height: 45px;
+    width: 90px;
+    margin-left: 64%;
+}
+
+/* .........
+media query 
+...........*/
+
+/* mobile device */
+
+@media only screen and (max-width:668px){
+    .slide-text p{
+        font-size: 7px;
+    }
+    .slide-text h1{
+        font-size: 15px;
+    }
+
+    .peopleimage img{
+        margin-top: 50px;
+        height: 200px;
+        width: 300px;
+    }
+
+    .wedimg img{
+        height: 250px;
+        width: 380px;
+        margin-bottom: 50px;
+    }
+
+    .morebtn{
+        margin-left: 50%;
+    }
+
+    .footext{
+        font-size: 5px;
+    }
+    .footbody h4{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+}
